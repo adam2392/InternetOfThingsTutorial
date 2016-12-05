@@ -17,3 +17,14 @@ Hardware List:
 
 # Step 1:
 Open up Arduino and setup the necessary libraries. 
+Your file should look like this:
+
+```
+void setup() {
+  // put your setup code here, to run once:  
+}
+
+void loop() {
+  // main code goes here: runs in a loop
+}
+```
