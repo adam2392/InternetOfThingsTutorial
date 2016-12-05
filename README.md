@@ -8,6 +8,9 @@ So you've probably all heard of the "Internet of Things." It's a big trending in
 1. Arduino: https://www.arduino.cc/en/Main/Software
 2. Thermistor: 
 
+<img src="./images/Check Arduino Board.png" width="300" height="300">
+
+
 Hardware List:
 
 1. Arduino Uno Chip
@@ -51,10 +54,14 @@ void loop() {
 }
 ```
 
-# Step 2 Read In Voltages:
-Read in the voltage values and utilize the following equation to convert into resistance.
 
-$R_{thermistor} = \left(\dfrac{V_{cc} }{V_{measured}} - 1\right) \times R_{known}$
+
+# Step 2 Read In Voltages:
+Read in the voltage values and utilize the following equation to convert into resistance. From resistance we can convert to temperature.
+
+*INSERT IMAGE HERE*
+<img src="./images/steinhardeqns.png" width="300" height="300">
+
 
 We also want to add some print statements to understand what is going on.
 
@@ -90,11 +97,6 @@ void loop() {
   delay(1000); // delay 1 second 
 }
 ```
-
-Then use the equation to get temperature in Kelvin.
-$T = \dfrac{B}{ln \left(\dfrac{R_{thermistor} }{R_0 \times e^\frac{\large -B}{\large T_0}}\right)}$
-
-
 
 
 # Step 3 Improving Solution:
