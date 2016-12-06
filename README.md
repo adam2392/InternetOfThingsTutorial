@@ -6,7 +6,7 @@ So you've probably all heard of the "Internet of Things." It's a big trending in
 # Step 0: Download Necessary Software and Know Hardware
 
 1. Arduino: https://www.arduino.cc/en/Main/Software
-2. Thermistor: 
+2. Processing: https://processing.org/download/
 
 <img src="./images/Check Arduino Board.png" width="300" height="300">
 
@@ -221,4 +221,6 @@ void loop() { // main code goes here: runs in a loop
 # Step 5 Log Data In Text File
 
 Now that we have a way of obtaining data from our sensor, we want to log the data and time somehow.
+
+Check the "readFromIoT" file with Processing.
 
