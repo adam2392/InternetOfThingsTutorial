@@ -37,15 +37,16 @@ void draw() {
   if (myPort.available() > 0)
   {
     val = myPort.readStringUntil('\n');
+    println("Read");
   }
   //println(val);
 
-  String[] valueArray = split(val, ',');
+  //String[] valueArray = split(val, ',');
   
   try {
     output = new FileWriter(FILENAME, true); //the true will append the new data
     output.write(val);
-    //println("Working!");
+    println("Working!!!");
   }
   catch (IOException e) {
     println("It Broke");
