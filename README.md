@@ -1,5 +1,7 @@
 # Internet of Things Networking Session:
 
+*Fill Out Survey:* https://docs.google.com/forms/d/e/1FAIpQLSdc0WYtdYkOz82-NjrzSJi-rndDLiY8WiIMyFCglh9auYQyLA/viewform?c=0&w=1
+
 ## Part 1: Build a Simple Sensor App!
 So you've probably all heard of the "Internet of Things." It's a big trending industry and especially as healthcare professionals, it's important to understand the main concepts behind it. 
 
